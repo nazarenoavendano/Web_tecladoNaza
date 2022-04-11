@@ -1,0 +1,161 @@
+* {
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #000000;
+}
+
+button {
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border: 1px solid wheat;
+  background-color: transparent;
+  
+  font-size: 16px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+.backspace {
+  width: 95px;
+  border-radius: 10px;
+}
+
+.tab {
+  width: 75px;
+  border-radius: 10px;
+}
+
+.caps {
+  width: 80px;
+  border-radius: 10px;
+}
+
+.shiftIzq {
+  width: 115px;
+  border-radius: 10px;
+}
+
+.control {
+  width: 60px;
+  border-radius: 10px;
+}
+
+.espaciadora {
+  width: 320px;
+  border-radius: 10px;
+}
+
+.shiftDerecho {
+  width: 135px;
+  border-radius: 10px;
+}
+
+.enter {
+  width: 115px;
+  border-radius: 10px;
+}
+
+.contraBarra {
+  width: 65px;
+}
+
+.row-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+}
+
+
+.tecladoOchenta {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.ochentaUno {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoBlanco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  font-weight: 900;
+}
+
+.flechas {
+  display: flex;
+  justify-content: baseline;
+}
+
+.flechaUp {
+  display: flex;
+  justify-content: center;
+}
+
+.tecladoNumerico{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.numerico{
+  display: flex;
+}
+
+
+.numericoCero{
+  width: 90px;
+}
+
+.ultimaColumna{
+  display: flex;
+  flex-direction:column;
+  justify-content: end;
+}
+
+.verticalBoton{
+  height: 95px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/*
+ACA TENGO QUE SEGUIR CON 
+MEDIA QUERYS PARA QUE HAGA ALGO 
+CUANDO SE ROMPA LA PANTALLA COMPLETA
+Y APRENDER BIEN A FONDO EL GRID
+NO FUNCIONA BIEN EL RESPONSIVE, 
+TENGO QUE PASAR A MEDIDAS RELATIVAS
+*/
